@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x01-shell_permissions/103-Star_Wars
-echo 'telnet towel.blinkenlights.nl' >> 0x01-shell_permissions/103-Star_Wars
-chmod u+x 0x01-shell_permissions/103-Star_Wars
+echo '#!/bin/bash' > 0x00-shell_basics/101-clean_emacs
+echo 'rm *~' >> 0x00-shell_basics/101-clean_emacs
+chmod u+x 0x00-shell_basics/101-clean_emacs
 git add .
-git commit -m "Play star wars IV"
+git commit -m "clean emacs"
 git push
 clear
 vi script_me
