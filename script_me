@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x00-shell_basics/101-clean_emacs
-echo 'rm *~' >> 0x00-shell_basics/101-clean_emacs
-chmod u+x 0x00-shell_basics/101-clean_emacs
+echo '0 string SCHOOL School data' > 0x00-shell_basics/school.mgc
+echo '!:mime School' >> 0x00-shell_basics/school.mgc
+chmod u+x 0x00-shell_basics/school.mgc
 git add .
-git commit -m "clean emacs"
+git commit -m "school mgc"
 git push
 clear
 vi script_me
