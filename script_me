@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x01-shell_permissions/102-if_only
-echo 'chown --from=guillaume betty hello' >> 0x01-shell_permissions/102-if_only
-chmod u+x 0x01-shell_permissions/102-if_only
+echo '#!/bin/bash' > 0x01-shell_permissions/103-Star_Wars
+echo 'telnet towel.blinkenlights.nl' >> 0x01-shell_permissions/103-Star_Wars
+chmod u+x 0x01-shell_permissions/103-Star_Wars
 git add .
-git commit -m "if only"
+git commit -m "Play star wars IV"
 git push
 clear
 vi script_me
