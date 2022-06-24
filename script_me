@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x01-shell_permissions/100-change_owner_and_group
-echo 'chown vincent:staff *' >> 0x01-shell_permissions/100-change_owner_and_group
-chmod u+x 0x01-shell_permissions/100-change_owner_and_group
+echo '#!/bin/bash' > 0x01-shell_permissions/101-symbolic_link_permissions
+echo 'chown -h vincent:staff _hello' >> 0x01-shell_permissions/101-symbolic_link_permissions
+chmod u+x 0x01-shell_permissions/101-symbolic_link_permissions
 git add .
-git commit -m "change owner and group"
+git commit -m "symbolic link permissions"
 git push
 clear
 vi script_me
