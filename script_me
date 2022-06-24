@@ -1,8 +1,8 @@
-echo '#!/bin/bash' >> 0x01-shell_permissions/10-mirror_permissions
-echo 'chmod --reference=olleh hello' >> 0x01-shell_permissions/10-mirror_permissions
-chmod u+x 0x01-shell_permissions/10-mirror_permissions
+echo '#!/bin/bash' >> 0x01-shell_permissions/11-directories_permissions
+echo 'chmod a+X *' >> 0x01-shell_permissions/11-directories_permissions
+chmod u+x 0x01-shell_permissions/11-directories_permissions
 git add .
-git commit -m "mirror permissions"
+git commit -m "directories permissions"
 git push
 clear
 vi script_me
