@@ -1,7 +1,7 @@
-#!/bin/bash
-vi 0x01-shell_permissions/7-everybody
-chmod u+x 0x01-shell_permissions/7-everybody
+echo '#!/bin/bash' >> 0x01-shell_permissions/8-James_Bond
+echo 'chmod 007 hello' >> 0x01-shell_permissions/8-James_Bond
+chmod u+x 0x01-shell_permissions/8-James_Bond
 git add .
-git commit -m "everybody"
+git commit -m "james bond"
 git push
 clear
