@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x01-shell_permissions/101-symbolic_link_permissions
-echo 'chown -h vincent:staff _hello' >> 0x01-shell_permissions/101-symbolic_link_permissions
-chmod u+x 0x01-shell_permissions/101-symbolic_link_permissions
+echo '#!/bin/bash' > 0x01-shell_permissions/102-if_only
+echo 'chown --from=guillaume betty hello' >> 0x01-shell_permissions/102-if_only
+chmod u+x 0x01-shell_permissions/102-if_only
 git add .
-git commit -m "symbolic link permissions"
+git commit -m "if only"
 git push
 clear
 vi script_me
