@@ -1,8 +1,8 @@
-echo '#!/bin/bash' >> 0x01-shell_permissions/9-John_Doe
-echo 'chmod 753 hello' >> 0x01-shell_permissions/9-John_Doe
-chmod u+x 0x01-shell_permissions/9-John_Doe
+echo '#!/bin/bash' >> 0x01-shell_permissions/10-mirror_permissions
+echo 'chmod --reference=olleh hello' >> 0x01-shell_permissions/10-mirror_permissions
+chmod u+x 0x01-shell_permissions/10-mirror_permissions
 git add .
-git commit -m "james doe"
+git commit -m "mirror permissions"
 git push
 clear
 vi script_me
