@@ -1,7 +1,9 @@
-echo '#!/bin/bash' >> 0x01-shell_permissions/8-James_Bond
-echo 'chmod 007 hello' >> 0x01-shell_permissions/8-James_Bond
-chmod u+x 0x01-shell_permissions/8-James_Bond
+echo '#!/bin/bash' >> 0x01-shell_permissions/9-John_Doe
+echo 'chmod 753 hello' >> 0x01-shell_permissions/9-John_Doe
+chmod u+x 0x01-shell_permissions/9-John_Doe
 git add .
-git commit -m "james bond"
+git commit -m "james doe"
 git push
 clear
+vi script_me
+./script_me
