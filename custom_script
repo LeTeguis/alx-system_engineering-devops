@@ -1,4 +1,4 @@
-echo '#!/bin/bash' >> 0x02-shell_redirections/2-hellofile
+echo '#!/bin/bash' > 0x02-shell_redirections/2-hellofile
 
 echo 'cat /etc/passwd' >> 0x02-shell_redirections/2-hellofile
 
