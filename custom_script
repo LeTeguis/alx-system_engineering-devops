@@ -1,8 +1,6 @@
 echo '#!/bin/bash' > 0x02-shell_redirections/3-twofiles
 
-echo '/etc/passwd' >> 0x02-shell_redirections/3-twofiles
-
-echo '/etc/hosts' >> 0x02-shell_redirections/3-twofiles
+echo '/etc/passwd /etc/hosts' >> 0x02-shell_redirections/3-twofiles
 
 chmod u+x 0x02-shell_redirections/3-twofiles
 
