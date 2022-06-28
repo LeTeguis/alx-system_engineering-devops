@@ -1,12 +1,12 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/4-lastlines
+echo '#!/bin/bash' > 0x02-shell_redirections/5-firstlines
 
-echo 'tail /etc/passwd' >> 0x02-shell_redirections/4-lastlines
+echo 'head /etc/passwd' >> 0x02-shell_redirections/5-firstlines
 
-chmod u+x 0x02-shell_redirections/4-lastlines
+chmod u+x 0x02-shell_redirections/5-firstlines
 
 git add .
 
-git commit -m "Last lines of a file"
+git commit -m "First lines of a file"
 
 git push
 
