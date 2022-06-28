@@ -1,8 +1,8 @@
-echo '#!/bin/bash' >> 0x02-shell_redirections/1-confused_smiley
+echo '#!/bin/bash' >> 0x02-shell_redirections/2-hellofile
 
-echo 'echo '\''"(Ôo)'\'' ' >> 0x02-shell_redirections/1-confused_smiley
+echo 'cat /etc/passwd' >> 0x02-shell_redirections/2-hellofile
 
-chmod u+x 0x02-shell_redirections/1-confused_smiley
+chmod u+x 0x02-shell_redirections/2-hellofile
 
 git add .
 
