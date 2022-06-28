@@ -1,0 +1,11 @@
+echo '#!/bin/bash/'> 0x02-shell_redirections/1-confused_smiley
+echo '$(echo '\' ' \" (Ôo)'\' ' ) ' >> 0x02-shel
+l_redirections/1-confused_smiley
+chmod u+x 0x02-shell_redirections/1-confus
+ed_smiley
+gid add .
+git commit -m "confused smiley"
+git push
+clear
+vi script_me
+e

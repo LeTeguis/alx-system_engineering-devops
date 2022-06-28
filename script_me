@@ -1,8 +1,8 @@
-echo '0 string SCHOOL School data' > 0x00-shell_basics/school.mgc
-echo '!:mime School' >> 0x00-shell_basics/school.mgc
-chmod u+x 0x00-shell_basics/school.mgc
+echo '#!/bin/bash' >> 0x02-shell_redirections/1-confused_smiley
+echo 'echo "(Ôo)'\'' ' >> 0x02-shell_redirections/1-confused_smiley
+chmod u+x 0x02-shell_redirections/1-confused_smiley
 git add .
-git commit -m "school mgc"
+git commit -m "confused smiley"
 git push
 clear
 vi script_me
