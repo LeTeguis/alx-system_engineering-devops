@@ -1,12 +1,12 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/3-twofiles
+echo '#!/bin/bash' > 0x02-shell_redirections/4-lastlines
 
-echo 'cat /etc/passwd /etc/hosts' >> 0x02-shell_redirections/3-twofiles
+echo 'tail /etc/passwd' >> 0x02-shell_redirections/4-lastlines
 
-chmod u+x 0x02-shell_redirections/3-twofiles
+chmod u+x 0x02-shell_redirections/4-lastlines
 
 git add .
 
-git commit -m "display two content"
+git commit -m "Last lines of a file"
 
 git push
 
