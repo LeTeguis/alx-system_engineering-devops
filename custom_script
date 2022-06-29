@@ -1,12 +1,12 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/6-third_line
+echo '#!/bin/bash' > 0x02-shell_redirections/7-file
 
-echo 'head -n 3 iacta | tail -1' >> 0x02-shell_redirections/6-third_line
+echo 'echo '\''Holberton School'\''  >> "\\*\\\\\'\"Holberton School\"\\\'\\\\*$\\?\\*\\*\\*\\*\\*:)"' >> 0x02-shell_redirections/7-file
 
-chmod u+x 0x02-shell_redirections/6-third_line
+chmod u+x 0x02-shell_redirections/7-file
 
 git add .
 
-git commit -m "third lines of a file"
+git commit -m "file"
 
 git push
 
