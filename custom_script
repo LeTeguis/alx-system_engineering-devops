@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x03-shell_variables_expansions/7-create_global_variable
+echo '#!/bin/bash' > 0x03-shell_variables_expansions/8-true_knowledge
 
-echo 'export BEST="School"' >> 0x03-shell_variables_expansions/7-create_global_variable
+echo 'echo $(( 128 + $TRUEKNOWLEDGE ))' >> 0x03-shell_variables_expansions/8-true_knowledge
 
-chmod u+x 0x03-shell_variables_expansions/7-create_global_variable
+chmod u+x 0x03-shell_variables_expansions/8-true_knowledge
 
 git add .
 
