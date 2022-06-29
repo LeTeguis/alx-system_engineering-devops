@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/7-file
+echo '#!/bin/bash' > 0x02-shell_redirections/8-cwd_state
 
-echo 'echo '\''Holberton School'\''  >> "\\*\\\\\'\"Holberton School\"\\\'\\\\*$\\?\\*\\*\\*\\*\\*:)"' >> 0x02-shell_redirections/7-file
+echo 'ls -la > ls_cwd_content' >> 0x02-shell_redirections/8-cwd_state
 
-chmod u+x 0x02-shell_redirections/7-file
+chmod u+x 0x02-shell_redirections/8-cwd_state
 
 git add .
 
