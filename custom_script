@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x03-shell_variables_expansions/5-local_variables
+echo '#!/bin/bash' > 0x03-shell_variables_expansions/6-create_local_variable
 
-echo 'set' >> 0x03-shell_variables_expansions/5-local_variables
+echo 'BEST="School"' >> 0x03-shell_variables_expansions/6-create_local_variable
 
-chmod u+x 0x03-shell_variables_expansions/5-local_variables
+chmod u+x 0x03-shell_variables_expansions/6-create_local_variable
 
 git add .
 
