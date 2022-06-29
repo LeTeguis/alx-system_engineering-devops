@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/19-AZ
+echo '#!/bin/bash' > 0x02-shell_redirections/20-hiago
 
-echo 'tr Ac Ze' >> 0x02-shell_redirections/19-AZ
+echo 'tr -d cC' >> 0x02-shell_redirections/20-hiago
 
-chmod u+x 0x02-shell_redirections/19-AZ
+chmod u+x 0x02-shell_redirections/20-hiago
 
 git add .
 
