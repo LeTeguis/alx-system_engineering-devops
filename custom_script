@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x03-shell_variables_expansions/2-path
+echo '#!/bin/bash' > 0x03-shell_variables_expansions/3-paths
 
-echo 'export PATH=$PATH:/action' >> 0x03-shell_variables_expansions/2-path
+echo 'echo $PATH | tr -s '\'':'\'' '\\n'\'' | wc -l' >> 0x03-shell_variables_expansions/3-paths
 
-chmod u+x 0x03-shell_variables_expansions/2-path
+chmod u+x 0x03-shell_variables_expansions/3-paths
 
 git add .
 
