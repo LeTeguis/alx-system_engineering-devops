@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x03-shell_variables_expansions/8-true_knowledge
+echo '#!/bin/bash' > 0x03-shell_variables_expansions/9-divide_and_rule
 
-echo 'echo $(( 128 + $TRUEKNOWLEDGE ))' >> 0x03-shell_variables_expansions/8-true_knowledge
+echo 'echo $(( $POWER / $DIVIDE ))' >> 0x03-shell_variables_expansions/9-divide_and_rule
 
-chmod u+x 0x03-shell_variables_expansions/8-true_knowledge
+chmod u+x 0x03-shell_variables_expansions/9-divide_and_rule
 
 git add .
 
