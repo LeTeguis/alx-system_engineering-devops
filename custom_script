@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/20-hiago
+echo '#!/bin/bash' > 0x02-shell_redirections/21-reverse
 
-echo 'tr -d cC' >> 0x02-shell_redirections/20-hiago
+echo 'rev' >> 0x02-shell_redirections/21-reverse
 
-chmod u+x 0x02-shell_redirections/20-hiago
+chmod u+x 0x02-shell_redirections/21-reverse
 
 git add .
 
