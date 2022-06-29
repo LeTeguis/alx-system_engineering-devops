@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x03-shell_variables_expansions/3-paths
+echo '#!/bin/bash' > 0x03-shell_variables_expansions/4-global_variables
 
-echo 'echo $PATH | tr -s '\'':'\'' '\''\\n'\'' | wc -l' >> 0x03-shell_variables_expansions/3-paths
+echo 'printenv' >> 0x03-shell_variables_expansions/4-global_variables
 
-chmod u+x 0x03-shell_variables_expansions/3-paths
+chmod u+x 0x03-shell_variables_expansions/4-global_variables
 
 git add .
 
