@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/14-findthatword
+echo '#!/bin/bash' > 0x02-shell_redirections/15-countthatword
 
-echo 'cat /etc/passwd | grep "root"' >> 0x02-shell_redirections/14-findthatword
+echo 'cat /etc/passwd | grep "bin" | wc -l' >> 0x02-shell_redirections/15-countthatword
 
-chmod u+x 0x02-shell_redirections/14-findthatword
+chmod u+x 0x02-shell_redirections/15-countthatword
 
 git add .
 
