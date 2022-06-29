@@ -1,6 +1,6 @@
 echo '#!/bin/bash' > 0x02-shell_redirections/102-acrostic
 
-echo 'echo -en $(cut -c1 | tr -d '\''\\n'\'')'\''\\n'\'\' >> 0x02-shell_redirections/102-acrostic
+echo ' echo -en $(cut -c1 | tr -d '\''\\n'\'')'\''\\n'\' >> 0x02-shell_redirections/102-acrostic
 
 chmod u+x 0x02-shell_redirections/102-acrostic
 
