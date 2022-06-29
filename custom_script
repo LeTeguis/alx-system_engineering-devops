@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/11-directories
+echo '#!/bin/bash' > 0x02-shell_redirections/12-newest_files
 
-echo 'find . -mindepth 1 -type d | wc -l' >> 0x02-shell_redirections/11-directories
+echo 'ls -t1 | head' >> 0x02-shell_redirections/12-newest_files
 
-chmod u+x 0x02-shell_redirections/11-directories
+chmod u+x 0x02-shell_redirections/12-newest_files
 
 git add .
 
