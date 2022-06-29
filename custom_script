@@ -1,6 +1,6 @@
-o '#!/bin/bash' > 0x02-shell_redirections/19-AZ
+echo '#!/bin/bash' > 0x02-shell_redirections/19-AZ
 
-echo 'tr Ac Ze' >> 0x02-shell_redirections/19-AZ
+echo 'echo Aca | tr Ac Ze' >> 0x02-shell_redirections/19-AZ
 
 chmod u+x 0x02-shell_redirections/19-AZ
 
