@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/10-no_more_js
+echo '#!/bin/bash' > 0x02-shell_redirections/11-directories
 
-echo 'find . -name "*.js" -type f -delete' >> 0x02-shell_redirections/10-no_more_js
+echo 'find . -mindepth 1 -type d | wc -l' >> 0x02-shell_redirections/11-directories
 
-chmod u+x 0x02-shell_redirections/10-no_more_js
+chmod u+x 0x02-shell_redirections/11-directories
 
 git add .
 
