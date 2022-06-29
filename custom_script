@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/13-unique
+echo '#!/bin/bash' > 0x02-shell_redirections/14-findthatword
 
-echo 'sort | uniq -u' >> 0x02-shell_redirections/13-unique
+echo 'cat /etc/passwd | grep "root"' >> 0x02-shell_redirections/14-findthatword
 
-chmod u+x 0x02-shell_redirections/13-unique
+chmod u+x 0x02-shell_redirections/14-findthatword
 
 git add .
 
