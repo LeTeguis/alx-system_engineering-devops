@@ -1,6 +1,6 @@
 echo '#!/bin/bash' > 0x02-shell_redirections/18-letteronly
 
-echo 'cat /etc/ssh/sshd_config | grep "^[[:upper:]]"' >> 0x02-shell_redirections/18-letteronly
+echo 'cat /etc/ssh/sshd_config | grep "^[a-zA-Z]"' >> 0x02-shell_redirections/18-letteronly
 
 chmod u+x 0x02-shell_redirections/18-letteronly
 
