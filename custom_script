@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x03-shell_variables_expansions/1-hello_you
+echo '#!/bin/bash' > 0x03-shell_variables_expansions/2-path
 
-echo 'echo hello $USER' >> 0x03-shell_variables_expansions/1-hello_you
+echo 'export PATH=$PATH:/action' >> 0x03-shell_variables_expansions/2-path
 
-chmod u+x 0x03-shell_variables_expansions/1-hello_you
+chmod u+x 0x03-shell_variables_expansions/2-path
 
 git add .
 
