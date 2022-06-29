@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/12-newest_files
+echo '#!/bin/bash' > 0x02-shell_redirections/13-unique
 
-echo 'ls -t1 | head' >> 0x02-shell_redirections/12-newest_files
+echo 'sort | uniq -u' >> 0x02-shell_redirections/13-unique
 
-chmod u+x 0x02-shell_redirections/12-newest_files
+chmod u+x 0x02-shell_redirections/13-unique
 
 git add .
 
