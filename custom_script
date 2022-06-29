@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/100-empty_casks
+echo '#!/bin/bash' > 0x02-shell_redirections/22-users_and_homes
 
-echo 'find . -empty -printf '\''%f\n'\' >> 0x02-shell_redirections/100-empty_casks
+echo 'cat /etc/passwd | sort -k1 | cut -d '\'':'\'' -f1,6' >> 0x02-shell_redirections/22-users_and_homes
 
-chmod u+x 0x02-shell_redirections/100-empty_casks
+chmod u+x 0x02-shell_redirections/22-users_and_homes
 
 git add .
 
