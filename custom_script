@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/9-duplicate_last_line
+echo '#!/bin/bash' > 0x02-shell_redirections/10-no_more_js
 
-echo 'tail -1 iacta >> iacta' >> 0x02-shell_redirections/9-duplicate_last_line
+echo 'find . -name "*.js" -type f -delete' >> 0x02-shell_redirections/10-no_more_js
 
-chmod u+x 0x02-shell_redirections/9-duplicate_last_line
+chmod u+x 0x02-shell_redirections/10-no_more_js
 
 git add .
 
