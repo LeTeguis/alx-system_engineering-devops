@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/18-letteronly
+o '#!/bin/bash' > 0x02-shell_redirections/19-AZ
 
-echo 'cat /etc/ssh/sshd_config | grep "^[a-zA-Z]"' >> 0x02-shell_redirections/18-letteronly
+echo 'tr Ac Ze' >> 0x02-shell_redirections/19-AZ
 
-chmod u+x 0x02-shell_redirections/18-letteronly
+chmod u+x 0x02-shell_redirections/19-AZ
 
 git add .
 
