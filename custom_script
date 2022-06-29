@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x03-shell_variables_expansions/11-binary_to_decimal
+echo '#!/bin/bash' > 0x03-shell_variables_expansions/12-combinations
 
-echo 'echo $(( 2#$BINARY ))' >> 0x03-shell_variables_expansions/11-binary_to_decimal
+echo 'echo {a..z}{a..z} | tr '\' \' \''\n'\'' | grep -v "oo"' >> 0x03-shell_variables_expansions/12-combinations
 
-chmod u+x 0x03-shell_variables_expansions/11-binary_to_decimal
+chmod u+x 0x03-shell_variables_expansions/12-combinations
 
 git add .
 
