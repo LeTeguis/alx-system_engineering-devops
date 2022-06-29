@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x02-shell_redirections/8-cwd_state
+echo '#!/bin/bash' > 0x02-shell_redirections/9-duplicate_last_line
 
-echo 'ls -la > ls_cwd_content' >> 0x02-shell_redirections/8-cwd_state
+echo 'tail -1 iacta >> iacta' >> 0x02-shell_redirections/9-duplicate_last_line
 
-chmod u+x 0x02-shell_redirections/8-cwd_state
+chmod u+x 0x02-shell_redirections/9-duplicate_last_line
 
 git add .
 
