@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x03-shell_variables_expansions/13-print_float
+echo '#!/bin/bash' > 0x03-shell_variables_expansions/100-decimal_to_hexadecimal
 
-echo 'printf '\''%.2f\n'\'' $NUM' >> 0x03-shell_variables_expansions/13-print_float
+echo 'printf '\''%x\n'\'' $DECIMAL' >> 0x03-shell_variables_expansions/100-decimal_to_hexadecimal
 
-chmod u+x 0x03-shell_variables_expansions/13-print_float
+chmod u+x 0x03-shell_variables_expansions/100-decimal_to_hexadecimal
 
 git add .
 
