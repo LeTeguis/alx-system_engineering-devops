@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x03-shell_variables_expansions/102-odd
+echo '#!/bin/bash' > 0x03-shell_variables_expansions/103-water_and_stir
 
-echo 'paste - - | cut -f1' >> 0x03-shell_variables_expansions/102-odd
+echo 'printf '\''%o\\n'\'' $(( 5#$( echo $WATER | tr water 01234) + 5#$( echo $STIR | tr stir. 01234 ) )) | tr 01234567 bestchol' >> 0x03-shell_variables_expansions/103-water_and_stir
 
-chmod u+x 0x03-shell_variables_expansions/102-odd
+chmod u+x 0x03-shell_variables_expansions/103-water_and_stir
 
 git add .
 
