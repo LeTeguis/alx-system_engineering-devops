@@ -1,8 +1,8 @@
-echo '#!/bin/bash' > 0x03-shell_variables_expansions/101-rot13
+echo '#!/bin/bash' > 0x03-shell_variables_expansions/102-odd
 
-echo 'tr '\''A-Ma-mN-Zn-z'\' \''N-Zn-zA-Ma-m'\' >> 0x03-shell_variables_expansions/101-rot13
+echo 'paste - - | cut -f1' >> 0x03-shell_variables_expansions/102-odd
 
-chmod u+x 0x03-shell_variables_expansions/101-rot13
+chmod u+x 0x03-shell_variables_expansions/102-odd
 
 git add .
 
